@@ -2,8 +2,8 @@ import './Navbar.css';
 
 export const Navbar = () => {
     return(
-        <div className='main'>
-            Navbar
-        </div>
+       <nav>
+        <a href="# "></a>
+       </nav>
     )
 }

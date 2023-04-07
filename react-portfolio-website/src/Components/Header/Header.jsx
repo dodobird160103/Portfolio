@@ -5,7 +5,6 @@ import { HeaderSocials } from './HeaderSocials';
 export const Header = () => {
     return(
         <header>
-            <HeaderSocials/>
             <div className="container header_container">
                 <h5>Hello I'm</h5>
                 <h1>Farhan Kashif</h1>
@@ -13,6 +12,9 @@ export const Header = () => {
                     Full Stack Developer
                 </h5>
 
+                
+                <HeaderSocials/>
+                
                 <div className="me">
                     <img src={ME} alt="me" />
                 </div>
