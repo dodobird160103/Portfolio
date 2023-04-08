@@ -1,5 +1,5 @@
 import './About.css';
-import ME from '../../assets/me-about.jpg';
+import ME from '../../assets/pblue.png';
 import {FiAward} from 'react-icons/fi';
 import {FiUsers} from 'react-icons/fi';
 import {VscNewFolder} from 'react-icons/vsc';
@@ -22,23 +22,23 @@ export const About = () => {
                     <article className='about_card'>
                         <FiAward className='about_icon'/>
                         <h5>Experience</h5>
-                        <small>1+ Years Working</small>
+                        <small>2+ Years Working</small>
                     </article>
 
                     <article className='about_card'>
                         <FiUsers className='about_icon'/>
                         <h5>Clients</h5>
-                        <small>20+ WorldWide</small>
+                        <small>40+ WorldWide</small>
                     </article>
 
                     <article className='about_card'>
                         <VscNewFolder className='about_icon'/>
                         <h5>Projects</h5>
-                        <small>10+ Completed</small>
+                        <small>24+ Completed</small>
                     </article>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis quisquam ad, necessitatibus neque quia, distinctio voluptatum odio ea praesentium autem. Itaque quasi officia ab repellendus inventore, fugiat cumque id.</p>
+                <p>Hi. I'm Farhan Kashif, FullStack Web and App developer. I've been working as a Full Stack developer for more than 2 years now and as a app developer for more than 1 year with many satisfied clients worldwide. I make sure that my clients are satisfied with the job and that my work is upto the required standard. I'll be looking forward to working with you.</p>
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>

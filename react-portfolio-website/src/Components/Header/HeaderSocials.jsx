@@ -1,5 +1,6 @@
 import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa'
+import './Header.css';
 
 export const HeaderSocials = () => {
     return(

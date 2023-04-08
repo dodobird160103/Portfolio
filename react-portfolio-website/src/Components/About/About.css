@@ -1,7 +1,7 @@
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 15%; 
 }
 
 .about_me {
@@ -19,6 +19,12 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+}
+
+.about_me-image img {
+    
+    height: 24rem;
+    width: 23rem;
 }
 
 .about_me-image:hover {

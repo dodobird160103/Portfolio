@@ -1,6 +1,7 @@
+
 .services_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 3rem;
 }
 
@@ -24,7 +25,6 @@
     padding: 2rem;
     border-radius:  0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
-
 }
 
 .service_head h3 {
@@ -54,6 +54,7 @@
 
 @media screen and (max-width: 1024px) {
     .services_container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
