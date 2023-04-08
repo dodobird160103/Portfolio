@@ -30,7 +30,7 @@ body {
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 
   --transition: all 400ms ease;
 }
@@ -38,7 +38,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+ 
 
 /************ GENERAL STYLES *********/
 .container {
